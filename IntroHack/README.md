@@ -1,11 +1,38 @@
-# Introducción al Hacking (IntroHack)
+# 🎓 Introducción al Hacking — IntroHack
 
-Esta carpeta contiene mis apuntes y recursos fundamentales sobre conceptos de redes y hacking ético, basados en las clases de S4vitar.
+> Apuntes del curso de **Introducción al Hacking** de [S4vitar (Hack4U)](https://hack4u.io).  
+> Conceptos fundamentales de redes y hacking ético.
 
-## Contenido
+---
 
-### Conceptos de Redes
+## 📂 Contenido
 
-*   **[Modelo OSI](modelo_osi.md)**: Resumen de las 7 capas del Modelo de Interconexión de Sistemas Abiertos (OSI), desde la capa física hasta la capa de aplicación.
-*   **[TCP 3-Way Handshake](three_way_handshake.md)**: Explicación breve del proceso de establecimiento de conexión en el protocolo TCP (SYN, SYN-ACK, ACK) y la diferencia con UDP (protocolo sin conexión).
-*   **[Subnetting Tips](tips_subnetting.txt)**: Ejemplos prácticos y cálculos de subnetting, incluyendo operaciones binarias AND para determinar Network ID y direcciones de Broadcast para diferentes máscaras de subred (ej: /17 y /13).
+### 🌐 Fundamentos de Redes
+
+| Archivo | Tema | Descripción |
+|---------|------|-------------|
+| 📄 [Modelo OSI](modelo_osi.md) | Capas de Red | Las 7 capas del modelo OSI, protocolos asociados y su relevancia en hacking |
+| 📄 [Three-Way Handshake](three_way_handshake.md) | TCP vs UDP | Proceso de conexión TCP (SYN → SYN/ACK → ACK) y diferencias con UDP |
+| 📄 [Subnetting](tips_subnetting.md) | Cálculo de Subredes | Operaciones AND, Network ID, Broadcast y tabla de máscaras comunes |
+
+### 🔍 Herramientas
+
+| Archivo | Tema | Descripción |
+|---------|------|-------------|
+| 📄 [Nmap](namp.md) | Escáner de puertos | Comandos esenciales de Nmap: escaneos, fingerprinting, templates de velocidad y captura de tráfico |
+
+### 📦 Recursos
+
+| Archivo | Descripción |
+|---------|-------------|
+| 📄 [Captura.cap](Captura.cap) | Archivo de captura de red (pcap) para análisis con Wireshark |
+
+---
+
+## 🚀 Progreso del Curso
+
+- [x] Modelo OSI
+- [x] TCP / UDP — Three-Way Handshake
+- [x] Subnetting
+- [x] Nmap — Escaneo de puertos y redes
+- [ ] *Próximos temas...*
