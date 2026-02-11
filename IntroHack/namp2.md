@@ -6,5 +6,7 @@ sudo updatedb
 locate .nse | wc -l 
 
 
+juri
+
 
 
